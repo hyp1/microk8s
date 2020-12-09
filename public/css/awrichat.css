@@ -1,0 +1,128 @@
+.ui-icon-loading {
+    background: url('../img/30.gif'); 
+	background-size: 2.875em 2.875em;
+}
+a{
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+ul#commandlist li:hover{
+    background-color:orange;
+}
+
+strong{
+    color: #046318;
+}
+#users li{
+    cursor:pointer;
+    float:left;
+    width:100%;
+    margin:3 -30px;
+    font-family: Emojione;
+}
+
+#users li{
+    cursor:pointer;
+    float:left;
+    width:100%;
+    margin:3 -30px;
+    font-family: Emojione;
+}
+
+@font-face { /* http://emojione.com/developers/ */
+  font-family: Emojione;
+  src: local("EmojiOne BW"), local("EmojiOne"), local("Emoji One"), 
+       url("emojione-android.ttf") format("truetype");      
+}
+
+@font-face {
+    font-family: Emojione;
+    src: local("Arial");
+    unicode-range: U+0000-00FF;
+}
+  
+body, html, ul#messages{
+    font-family: Emojione;
+}
+
+.emojis{
+    font-family: Emojione;
+}
+
+ul{
+    list-style-type: none;  
+}
+ li.selected{
+background-color:lightgreen;
+}
+
+
+#dialog,#upldialog {
+    min-width: 200px;
+    max-width: 100%px;
+    margin: auto;
+    border: thin solid black;
+    border-radius: 15px;
+    padding: 10px;
+    background: lightgreen; 
+  }
+  .hidden {
+    display: none;
+  }
+
+ul.usermenu li:hover{
+    background-color:lightgreen;
+    cursor:pointer;
+}
+
+  .ui-page-theme-e{
+    border:0 !important;
+    color:#fff
+    
+} 
+.ui-page-theme-e > li{
+    color:#fff !important;
+     /* background-color:pink !important; */
+      text-shadow: none !important;
+  } 
+  .ui-page-theme-e > strong{
+    color:lightgreen;
+}
+
+ui-body-e {
+    color:#fff !important;
+    background-color:green;
+}
+div.node{
+    border:1px solid black;
+    border-radius:15px;
+    padding: 15px;
+    margin-top: 10px;
+    background-color:#e9e9e9;
+}
+
+
+.speech-bubble {
+	position: relative;
+	background: #dddddd;
+    border-radius: .4em;
+    border: 2px solid black;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 0.825em solid transparent;
+	border-top-color: #dddddd;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: 1.412em;
+    margin-bottom: -0.825em;
+}
